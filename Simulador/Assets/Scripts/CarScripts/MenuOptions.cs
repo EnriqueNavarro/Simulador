@@ -5,61 +5,29 @@ using UnityEngine.SceneManagement;
 
 public class MenuOptions : MonoBehaviour
 {
-    private int track = 0;
-    private Outline[] outlines;
-
     public void Start ()
     {
-        outlines = GetComponentsInChildren<Outline>();
-		Debug.Log ("in menu script "+outlines.Length);
-		if (outlines.Length > 0)
-		{
-			outlines [0].effectColor = new Color (0, 0, 0);
-		}
+        DontDestroyOnLoad(gameObject);
     }
-
-	public void ControlMenu()
-	{
-		SceneManager.LoadScene ("ControlMenu");
-	}
 
 	public void MainMenu()
 	{
-		Debug.Log ("go to main menu");
-		SceneManager.LoadScene ("MenuScene");
+		SceneManager.LoadScene ("Menu_Simulador");
 	}
 
-    public void StartDrivingMode()
-    {
-        if (track == 0) {
-            SceneManager.LoadScene("LakeTrackTraining");
-        } else {
-            SceneManager.LoadScene("Tec");
-        }
+	public void SelectTrack()
+	{
+		SceneManager.LoadScene ("mapSelection");
+	}
 
-    }
+	public void SelectCar()
+	{
+		SceneManager.LoadScene ("carSelection");
+	}
 
-    public void StartAutonomousMode()
-    {
-        if (track == 0) {
-            SceneManager.LoadScene("LakeTrackAutonomous");
-        } else {
-            SceneManager.LoadScene("JungleTrackAutonomous");
-        }
-    }
-
-    public void SetLakeTrack()
-    {
-        outlines [0].effectColor = new Color (0, 0, 0);
-        outlines [1].effectColor = new Color (255, 255, 255);
-        track = 0;
-    }
-
-    public void SetMountainTrack()
-    {
-        track = 1;
-        outlines [1].effectColor = new Color (0, 0, 0);
-        outlines [0].effectColor = new Color (255, 255, 255);
-    }
+	public void StartRun()
+	{
+		SceneManager.LoadScene(PlayerPrefs.GetString("track"));
+	}
 
 }
