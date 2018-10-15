@@ -26,7 +26,32 @@ public class BoxDropper : MonoBehaviour {
                 if(i<100) {
                     aux.name = "Waypoint 0" + i;
                 } else {
-                    aux.name = "Waypoint " + i;
+                    if (i < 1000) {
+                        aux.name = "Waypoint " + i ;
+                    } else {
+                        if (i%1000 < 10)
+                        {
+                            aux.name = (int)(1000/i)+"Waypoint 00" + (i % 1000);
+                        }
+                        else
+                        {
+                            if (i % 1000 < 100)
+                            {
+                                aux.name = (int)(1000 / i) + "Waypoint 0" + (i % 1000);
+                            }
+                            else
+                            {
+                                if (i % 1000 < 1000)
+                                {
+                                    aux.name = (int)(1000 / i) + "Waypoint " + (i % 1000);
+                                }
+                                else
+                                {
+
+                                }
+                            }
+                        }
+                    }
                 }
             }
             i++;
