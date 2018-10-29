@@ -15,16 +15,16 @@ public class WaypointCircuitAuto : MonoBehaviour {
     public float Length { get; private set; }
     public bool ready;
     public bool loaded;
+    public GameObject system;
     //public GameObject children;
 
     private void Start()
     {
+        system = GameObject.FindGameObjectWithTag("WaypointSystem");
         Transform[] circuit;
         if (loaded) {
-            circuit = Communicate.transforms;
-            for(int i=0;i< Communicate.boxes.Length;i++) {
-                Instantiate(Communicate.boxes[i], Communicate.boxes[i].transform.position, Quaternion.identity);
-            }
+            circuit = system.GetComponentsInChildren<Transform>();
+            
         } else {
             circuit = GetComponentsInChildren<Transform>();
         }
