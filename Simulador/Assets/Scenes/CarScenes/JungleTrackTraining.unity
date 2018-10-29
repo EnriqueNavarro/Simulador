@@ -469,7 +469,7 @@ MonoBehaviour:
   WaypointSystem: {fileID: 365190787}
   node: {fileID: 1684734627660294, guid: c078af956a692e8479061635b68328c7, type: 2}
   i: 0
-  distance: 1
+  distance: 2
   boxes: []
   sceneToLoad: JungleTrackAutonomous
 --- !u!4 &147849022 stripped
@@ -3890,7 +3890,7 @@ Prefab:
     - target: {fileID: 114000012124030144, guid: 0fb4610dba67fc24cb2a6674fb155fc1,
         type: 2}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114579138937960122, guid: 0fb4610dba67fc24cb2a6674fb155fc1,
         type: 2}
