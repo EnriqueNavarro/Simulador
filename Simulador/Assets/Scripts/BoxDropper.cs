@@ -1,12 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class BoxDropper : MonoBehaviour {
     [SerializeField] private GameObject WaypointSystem;
     [SerializeField] private GameObject node;
     [SerializeField] private int i;
     [SerializeField] private float distance;
+    private List<GameObject> boxes;
+    public string sceneToLoad;
     private Vector3 lastPos;
 	// Use this for initialization
 	void Start () {
@@ -55,6 +59,14 @@ public class BoxDropper : MonoBehaviour {
                 }
             }
             i++;
+        }
+        //Debug.Log(Input.GetKeyDown(0));
+        if(Input.GetKeyDown("q")) {
+            Debug.Log("Saving");
+            Transform[] transforms = GetComponentsInChildren<Transform>();
+            Communicate.boxes = GetComponentsInChildren<GameObject>();
+            Communicate.transforms = transforms;
+            SceneManager.LoadScene(sceneToLoad);
         }
 	}
 }
