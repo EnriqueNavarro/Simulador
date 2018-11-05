@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CarScenes/LakeTrackTraining.unity
     guid: cb500fe205b48445a9fa1c0e3bcf9b6e
+  - enabled: 1
+    path: Assets/Scenes/CarScenes/Tec.unity
+    guid: eb364c72327b354479a30b8fec011cb1
   m_configObjects: {}
