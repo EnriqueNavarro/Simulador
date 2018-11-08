@@ -50235,246 +50235,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1101312823}
-  - component: {fileID: 1101312822}
   m_Layer: 0
   m_Name: Waypoint System
-  m_TagString: Untagged
+  m_TagString: WaypointSystem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1101312822
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1101312821}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70852dc981465ea48bb527b9e33a87fd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  waypointList:
-    circuit: {fileID: 1101312822}
-    items:
-    - {fileID: 859725223}
-    - {fileID: 503989407}
-    - {fileID: 549990173}
-    - {fileID: 1997195342}
-    - {fileID: 2072905322}
-    - {fileID: 484721433}
-    - {fileID: 1274252509}
-    - {fileID: 139825089}
-    - {fileID: 1327439271}
-    - {fileID: 1691397195}
-    - {fileID: 1288971930}
-    - {fileID: 259595908}
-    - {fileID: 1718198704}
-    - {fileID: 886284263}
-    - {fileID: 2111293219}
-    - {fileID: 233603772}
-    - {fileID: 274361685}
-    - {fileID: 851994535}
-    - {fileID: 1149806621}
-    - {fileID: 1041421758}
-    - {fileID: 43259016}
-    - {fileID: 867742155}
-    - {fileID: 1157087978}
-    - {fileID: 254174100}
-    - {fileID: 1575849493}
-    - {fileID: 1311187951}
-    - {fileID: 936348341}
-    - {fileID: 1285801814}
-    - {fileID: 746055108}
-    - {fileID: 1462097566}
-    - {fileID: 135160615}
-    - {fileID: 652790668}
-    - {fileID: 1359936974}
-    - {fileID: 132285752}
-    - {fileID: 1740903919}
-    - {fileID: 389120362}
-    - {fileID: 354968133}
-    - {fileID: 1213534828}
-    - {fileID: 1971043}
-    - {fileID: 1170799203}
-    - {fileID: 611269117}
-    - {fileID: 226689923}
-    - {fileID: 1244599373}
-    - {fileID: 1760699449}
-    - {fileID: 1942661830}
-    - {fileID: 367977893}
-    - {fileID: 1254732316}
-    - {fileID: 1803426728}
-    - {fileID: 586712900}
-    - {fileID: 1073802598}
-    - {fileID: 1395569182}
-    - {fileID: 860710887}
-    - {fileID: 436196090}
-    - {fileID: 1639862374}
-    - {fileID: 1250246851}
-    - {fileID: 1215057567}
-    - {fileID: 1979827981}
-    - {fileID: 1348430319}
-    - {fileID: 1984861358}
-    - {fileID: 636707847}
-    - {fileID: 1306354854}
-    - {fileID: 789656783}
-    - {fileID: 553542160}
-    - {fileID: 268236632}
-    - {fileID: 1240820595}
-    - {fileID: 829932285}
-    - {fileID: 31840527}
-    - {fileID: 207176402}
-    - {fileID: 1938914678}
-    - {fileID: 2024341880}
-    - {fileID: 2066662384}
-    - {fileID: 1929479889}
-    - {fileID: 82966616}
-    - {fileID: 1825437989}
-    - {fileID: 990274596}
-    - {fileID: 885549553}
-    - {fileID: 1653692579}
-    - {fileID: 191598306}
-    - {fileID: 563464833}
-    - {fileID: 52081315}
-    - {fileID: 1840284795}
-    - {fileID: 993148120}
-    - {fileID: 226882837}
-    - {fileID: 226256642}
-    - {fileID: 420084657}
-    - {fileID: 1992821035}
-    - {fileID: 1529571921}
-    - {fileID: 1216111}
-    - {fileID: 427743762}
-    - {fileID: 1455390250}
-    - {fileID: 1700251307}
-    - {fileID: 677782115}
-    - {fileID: 701290576}
-    - {fileID: 421875671}
-    - {fileID: 1532155354}
-    - {fileID: 1796031697}
-    - {fileID: 37117409}
-    - {fileID: 2077699138}
-    - {fileID: 154614540}
-    - {fileID: 818623278}
-    - {fileID: 359501502}
-    - {fileID: 1555416297}
-    - {fileID: 1788505077}
-    - {fileID: 472327314}
-    - {fileID: 1196546052}
-    - {fileID: 38177765}
-    - {fileID: 2012227447}
-    - {fileID: 1495286194}
-    - {fileID: 442233135}
-    - {fileID: 227482014}
-    - {fileID: 585208817}
-    - {fileID: 1352823648}
-    - {fileID: 613841593}
-    - {fileID: 1514057711}
-    - {fileID: 7232481}
-    - {fileID: 942247225}
-    - {fileID: 1758646410}
-    - {fileID: 910001902}
-    - {fileID: 2101917428}
-    - {fileID: 1534163793}
-    - {fileID: 557834707}
-    - {fileID: 1379082663}
-    - {fileID: 425191685}
-    - {fileID: 2015384208}
-    - {fileID: 1326947608}
-    - {fileID: 730600573}
-    - {fileID: 1539791422}
-    - {fileID: 984720957}
-    - {fileID: 1160002410}
-    - {fileID: 973686344}
-    - {fileID: 1890727100}
-    - {fileID: 1335234447}
-    - {fileID: 2144342088}
-    - {fileID: 1063167480}
-    - {fileID: 424987135}
-    - {fileID: 310664774}
-    - {fileID: 510379176}
-    - {fileID: 1009996785}
-    - {fileID: 1550509606}
-    - {fileID: 578142918}
-    - {fileID: 1601155772}
-    - {fileID: 2076405584}
-    - {fileID: 724220272}
-    - {fileID: 1179087904}
-    - {fileID: 1465809607}
-    - {fileID: 346587712}
-    - {fileID: 820755822}
-    - {fileID: 565717578}
-    - {fileID: 2090142309}
-    - {fileID: 822876398}
-    - {fileID: 1911543545}
-    - {fileID: 663707617}
-    - {fileID: 1460734741}
-    - {fileID: 1301152698}
-    - {fileID: 1821014070}
-    - {fileID: 464223638}
-    - {fileID: 337761417}
-    - {fileID: 1556067167}
-    - {fileID: 1611851926}
-    - {fileID: 800331320}
-    - {fileID: 1673884268}
-    - {fileID: 984014920}
-    - {fileID: 912966411}
-    - {fileID: 1493672434}
-    - {fileID: 1103240454}
-    - {fileID: 1924128246}
-    - {fileID: 350190497}
-    - {fileID: 1045741862}
-    - {fileID: 1788553382}
-    - {fileID: 1208337005}
-    - {fileID: 302449876}
-    - {fileID: 1684414381}
-    - {fileID: 633401239}
-    - {fileID: 645895412}
-    - {fileID: 1448351860}
-    - {fileID: 490445714}
-    - {fileID: 1072139114}
-    - {fileID: 1266115992}
-    - {fileID: 1984412786}
-    - {fileID: 175440238}
-    - {fileID: 272403204}
-    - {fileID: 1784343269}
-    - {fileID: 123695649}
-    - {fileID: 1745767347}
-    - {fileID: 245268557}
-    - {fileID: 967477344}
-    - {fileID: 959103642}
-    - {fileID: 1398191122}
-    - {fileID: 98979003}
-    - {fileID: 1777155503}
-    - {fileID: 1531329049}
-    - {fileID: 1624688154}
-    - {fileID: 482220835}
-    - {fileID: 678649180}
-    - {fileID: 905038673}
-    - {fileID: 1195862647}
-    - {fileID: 1324303070}
-    - {fileID: 266489771}
-    - {fileID: 502134052}
-    - {fileID: 942026999}
-    - {fileID: 294262988}
-    - {fileID: 2067608577}
-    - {fileID: 1330463870}
-    - {fileID: 1815656356}
-    - {fileID: 296709715}
-    - {fileID: 1609393466}
-    - {fileID: 785494242}
-    - {fileID: 1973492086}
-    - {fileID: 686607371}
-    - {fileID: 2128737680}
-    - {fileID: 684620989}
-    - {fileID: 1997881523}
-    - {fileID: 1689669045}
-    - {fileID: 1847004640}
-    - {fileID: 1286764235}
-    - {fileID: 2063415714}
-  smoothRoute: 1
-  editorVisualisationSubsteps: 100
 --- !u!4 &1101312823
 Transform:
   m_ObjectHideFlags: 0
@@ -54724,7 +54491,7 @@ Prefab:
         type: 2}
       propertyPath: wp
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1412212058}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0fb4610dba67fc24cb2a6674fb155fc1, type: 2}
   m_IsPrefabAsset: 0
@@ -62162,7 +61929,7 @@ GameObject:
   - component: {fileID: 1311614003}
   m_Layer: 0
   m_Name: Spawners
-  m_TagString: Untagged
+  m_TagString: WaypointSystem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -66906,6 +66673,53 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c078af956a692e8479061635b68328c7, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &1412212058
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1412212060}
+  - component: {fileID: 1412212059}
+  m_Layer: 0
+  m_Name: WayPointSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1412212059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1412212058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9677e8fc7f1e7a3409def02f5e725743, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypointList: []
+  smoothRoute: 1
+  Waypoints: {fileID: 0}
+  editorVisualisationSubsteps: 100
+  ready: 0
+  loaded: 1
+  system: {fileID: 0}
+--- !u!4 &1412212060
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1412212058}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 206.02196, y: -64.85, z: -76.81319}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1414389360
 Prefab:
   m_ObjectHideFlags: 0
