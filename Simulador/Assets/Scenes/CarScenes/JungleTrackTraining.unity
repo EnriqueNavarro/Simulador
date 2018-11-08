@@ -450,28 +450,6 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bf203c9f12c3ed24db9b1d89f6171738, type: 2}
   m_IsPrefabAsset: 0
---- !u!1 &132508627 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100064, guid: 0fb4610dba67fc24cb2a6674fb155fc1,
-    type: 2}
-  m_PrefabInternal: {fileID: 1050280511}
---- !u!114 &132508629
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 132508627}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 798f472b245186742bf283c92ad66b39, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WaypointSystem: {fileID: 365190787}
-  node: {fileID: 1684734627660294, guid: c078af956a692e8479061635b68328c7, type: 2}
-  i: 0
-  distance: 2
-  boxes: []
-  sceneToLoad: JungleTrackAutonomous
 --- !u!4 &147849022 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 437110, guid: 4d9cb2c390cb4b24a857eafb457a8ce3,
@@ -3820,92 +3798,45 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 400064, guid: 0fb4610dba67fc24cb2a6674fb155fc1, type: 2}
+    - target: {fileID: 4230930471891396, guid: 7330901cef5a3534893531a038c56651, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 170.62
+      value: 174.6
       objectReference: {fileID: 0}
-    - target: {fileID: 400064, guid: 0fb4610dba67fc24cb2a6674fb155fc1, type: 2}
+    - target: {fileID: 4230930471891396, guid: 7330901cef5a3534893531a038c56651, type: 2}
       propertyPath: m_LocalPosition.y
       value: -79.83
       objectReference: {fileID: 0}
-    - target: {fileID: 400064, guid: 0fb4610dba67fc24cb2a6674fb155fc1, type: 2}
+    - target: {fileID: 4230930471891396, guid: 7330901cef5a3534893531a038c56651, type: 2}
       propertyPath: m_LocalPosition.z
       value: -46.36
       objectReference: {fileID: 0}
-    - target: {fileID: 400064, guid: 0fb4610dba67fc24cb2a6674fb155fc1, type: 2}
+    - target: {fileID: 4230930471891396, guid: 7330901cef5a3534893531a038c56651, type: 2}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 400064, guid: 0fb4610dba67fc24cb2a6674fb155fc1, type: 2}
+    - target: {fileID: 4230930471891396, guid: 7330901cef5a3534893531a038c56651, type: 2}
       propertyPath: m_LocalRotation.y
       value: 0.7071068
       objectReference: {fileID: 0}
-    - target: {fileID: 400064, guid: 0fb4610dba67fc24cb2a6674fb155fc1, type: 2}
+    - target: {fileID: 4230930471891396, guid: 7330901cef5a3534893531a038c56651, type: 2}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 400064, guid: 0fb4610dba67fc24cb2a6674fb155fc1, type: 2}
+    - target: {fileID: 4230930471891396, guid: 7330901cef5a3534893531a038c56651, type: 2}
       propertyPath: m_LocalRotation.w
       value: 0.7071068
       objectReference: {fileID: 0}
-    - target: {fileID: 400064, guid: 0fb4610dba67fc24cb2a6674fb155fc1, type: 2}
+    - target: {fileID: 4230930471891396, guid: 7330901cef5a3534893531a038c56651, type: 2}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 114000011847512630, guid: 0fb4610dba67fc24cb2a6674fb155fc1,
+    - target: {fileID: 114227984815880026, guid: 7330901cef5a3534893531a038c56651,
         type: 2}
-      propertyPath: circuit
+      propertyPath: WaypointSystem
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 100064, guid: 0fb4610dba67fc24cb2a6674fb155fc1, type: 2}
-      propertyPath: m_Name
-      value: CarTraining
-      objectReference: {fileID: 0}
-    - target: {fileID: 400064, guid: 0fb4610dba67fc24cb2a6674fb155fc1, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 400064, guid: 0fb4610dba67fc24cb2a6674fb155fc1, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 400064, guid: 0fb4610dba67fc24cb2a6674fb155fc1, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 400064, guid: 0fb4610dba67fc24cb2a6674fb155fc1, type: 2}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000011211598448, guid: 0fb4610dba67fc24cb2a6674fb155fc1,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114799356097594582, guid: 0fb4610dba67fc24cb2a6674fb155fc1,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012124030144, guid: 0fb4610dba67fc24cb2a6674fb155fc1,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114579138937960122, guid: 0fb4610dba67fc24cb2a6674fb155fc1,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114799356097594582, guid: 0fb4610dba67fc24cb2a6674fb155fc1,
-        type: 2}
-      propertyPath: m_StopWhenTargetReached
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 114000013168730212, guid: 0fb4610dba67fc24cb2a6674fb155fc1, type: 2}
-    - {fileID: 114000011847512630, guid: 0fb4610dba67fc24cb2a6674fb155fc1, type: 2}
-  m_SourcePrefab: {fileID: 100100000, guid: 0fb4610dba67fc24cb2a6674fb155fc1, type: 2}
+      objectReference: {fileID: 365190787}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7330901cef5a3534893531a038c56651, type: 2}
   m_IsPrefabAsset: 0
 --- !u!4 &1067024515 stripped
 Transform:
@@ -6461,7 +6392,7 @@ MeshCollider:
   m_Mesh: {fileID: 4300000, guid: 87403507033f0034eab7ba172e32535d, type: 3}
 --- !u!114 &1695732591 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 11400020, guid: 0fb4610dba67fc24cb2a6674fb155fc1,
+  m_CorrespondingSourceObject: {fileID: 114536716172432286, guid: 7330901cef5a3534893531a038c56651,
     type: 2}
   m_PrefabInternal: {fileID: 1050280511}
   m_Script: {fileID: 11500000, guid: 3ea65b38d485c374caa584a03f1de571, type: 3}

@@ -11,7 +11,7 @@ namespace UnityStandardAssets.Utility
         // This script manages the amount to look ahead along the route,
         // and keeps track of progress and laps.
         [SerializeField] private GameObject wp;
-        [SerializeField] private WaypointCircuitAuto circuit=null; // A reference to the waypoint-based route we should follow
+        [SerializeField] private WaypointCircuitAuto circuit; // A reference to the waypoint-based route we should follow
 
         [SerializeField] private float lookAheadForTargetOffset = 5;
         // The offset ahead along the route that the we will aim for
