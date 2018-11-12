@@ -25678,6 +25678,7 @@ GameObject:
   m_Component:
   - component: {fileID: 515546287}
   - component: {fileID: 515546286}
+  - component: {fileID: 515546288}
   m_Layer: 0
   m_Name: SkyCar2
   m_TagString: car1
@@ -25724,6 +25725,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &515546288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 515546285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3f6fcb261574461cae69d1c6731a28f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &515740598
 Prefab:
   m_ObjectHideFlags: 0
@@ -96478,7 +96490,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!108 &2047661807
 Light:
   m_ObjectHideFlags: 0
