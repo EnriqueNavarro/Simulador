@@ -10,7 +10,7 @@ public class Fondo : MonoBehaviour {
     public Material Skybox2;
     public Material Skybox3;
     // Use this for initialization
-    public void Dropdown_IndexChange(int index){
+    public  void  Dropdown_IndexChange(int index){
         if (index==0){
             RenderSettings.skybox = Skybox1;
         }
@@ -24,7 +24,7 @@ public class Fondo : MonoBehaviour {
         }
 
     }
-
+   
     void Start () {
         RenderSettings.skybox = Skybox1;
 	}
