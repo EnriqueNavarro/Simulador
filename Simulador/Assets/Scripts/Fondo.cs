@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class Fondo : MonoBehaviour {
-
+    private int cont;
     public Dropdown m_Dropdown;
     public Material Skybox1;
     public Material Skybox2;
@@ -22,6 +22,7 @@ public class Fondo : MonoBehaviour {
         {
             RenderSettings.skybox = Skybox3;
         }
+        cont = index;
 
     }
    
@@ -31,7 +32,19 @@ public class Fondo : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+       
+        if (cont == 0)
+        {
+            RenderSettings.skybox = Skybox1;
+        }
+        if (cont == 1)
+        {
+            RenderSettings.skybox = Skybox2;
+        }
+        if (cont == 2)
+        {
+            RenderSettings.skybox = Skybox3;
+        }
 
-		
-	}
+    }
 }
